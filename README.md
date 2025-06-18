@@ -1,62 +1,49 @@
-# tutor-search-platform
-A web application built with PHP and MySQL to connect students with home tutors. Students can search tutors by subject and class level, view profiles, and book sessions easily.
-Overview
-The Tutor Search and Home Booking Platform is a comprehensive web application designed to connect students with qualified home tutors based on subject expertise and class level. This platform simplifies the traditional process of finding reliable tutors by providing an intuitive search interface, detailed tutor profiles, and a streamlined booking system.
 
-Built using PHP and MySQL on the backend and enhanced with HTML, CSS, JavaScript, and Bootstrap on the frontend, this project delivers a responsive, user-friendly experience accessible across devices. The platform integrates Google Maps API for location-based tutor searches, allowing students to find tutors within their vicinity easily.
+# Tutor Search and Home Booking Platform
 
-Features
-User Registration and Authentication: Separate signup and login processes for students and tutors with session management to ensure secure access.
+## Project Overview
 
-Tutor Profiles: Tutors can showcase their qualifications, subject expertise, teaching levels, availability, and contact details.
+This web application connects students with qualified home tutors based on subject expertise and class level. It simplifies the tutor-finding process by allowing students to search, view tutor profiles, and send booking requests easily.
 
-Search and Filtering: Students can search for tutors by selecting class levels and subjects, with results filtered to show only relevant, approved tutors.
+## Key Features
 
-Booking System: Students can send session requests to tutors directly through the platform, facilitating easy appointment management.
+* **User Registration & Login:** Separate accounts for students and tutors with secure authentication.
+* **Tutor Profiles:** Tutors can list subjects, teaching levels, availability, and contact info.
+* **Search Functionality:** Students search tutors by class and subject, with location-based filtering using Google Maps API.
+* **Booking Requests:** Students can send session requests directly through the platform.
+* **Q\&A Portal:** Students ask questions and get answers from tutors.
+* **Review System:** Students provide feedback and rate tutors.
+* **Responsive Design:** Works well on desktop and mobile devices with Bootstrap.
 
-Location-Based Search: Utilizes Google Maps API to calculate distances and help students find tutors within a specific radius.
+## Technologies Used
 
-Q&A Portal: Users can post questions and receive answers from tutors, fostering an interactive learning community.
+* Backend: PHP, MySQL
+* Frontend: HTML, CSS, JavaScript, Bootstrap
+* Google Maps API for location features
+* AJAX for smooth user experience and dynamic updates
 
-Review System: Students can leave feedback and ratings for tutors based on their tutoring experience.
+## Installation Steps
 
-Responsive Design: Built with Bootstrap to ensure smooth usability on desktops, tablets, and mobile devices.
+1. Install a local server like XAMPP or WAMP.
+2. Clone or download the project repository.
+3. Import the database schema using phpMyAdmin.
+4. Update database credentials in `db.php`.
+5. Access the app via your local server URL (e.g., `http://localhost/tutor-search-platform`).
 
-Technologies Used
-Backend: PHP, MySQL
+## Future Improvements
 
-Frontend: HTML5, CSS3, JavaScript, Bootstrap
+* Add more search filters (price, experience, ratings).
+* Build in-app chat system for direct messaging.
+* Develop mobile apps for Android and iOS.
+* Integrate live video sessions for tutoring.
 
-APIs: Google Maps API for geolocation and distance calculation
+## Contribution
 
-AJAX for dynamic content updates
+Feel free to fork, report issues, or suggest improvements to help enhance the platform.
 
-Session management and secure prepared statements for database interactions
+## License
 
-Installation and Setup
-Install a local server environment like XAMPP, WAMP, or MAMP.
+This project is open source under the MIT License.
 
-Clone the repository or download the ZIP file.
+---
 
-Import the provided database schema (.sql file) using phpMyAdmin or similar tools.
-
-Configure database credentials in the db.php file.
-
-Run the project via your local server URL (e.g., http://localhost/tutor-search-platform).
-
-Future Enhancements
-Advanced filtering options (fees, ratings, experience)
-
-In-app real-time messaging system
-
-AI-powered tutor recommendation engine
-
-Mobile application for Android/iOS
-
-Integrated video conferencing for live sessions
-
-Contribution
-Contributions are welcome! Feel free to fork the repo, raise issues, or submit pull requests to enhance the platform.
-
-License
-This project is open source and available under the MIT License.
